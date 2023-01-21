@@ -31,8 +31,9 @@ int main()
 	//Cin uses ">>" to tell the program what comes next instead of "<<".
 	//The variable that will store our input is Number. 
 	//We can only store integers in this variable, since that's how Number was declared.
+	cout << "Please enter a integer number: ";
 	cin >> Number;
-
+	cout << "You entered: " << Number <<endl;
 
 	//This stops the program from closing immediately so the user can read the output. 
 	//Most people do not use this, and use other ways to do it, I just like it. :3
